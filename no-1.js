@@ -1,7 +1,7 @@
 // Synchronous
-// Merupakan sebuah pendekatan pemrograman yang terikat pada proses input output protocol.
-// Synchronous melakukan pekerjaannya satu persatu sesuai dengan urutan dan prioritas task
+// Synchronous berarti berada dalam urutan, yaitu setiap pernyataan kode dieksekusi satu per satu.
+// Jadi, pada dasarnya sebuah pernyataan harus menunggu pernyataan sebelumnya untuk dieksekusi.
 
 // Asynchronous
-// Merupakan sebuah pendekatan pemrograman yang tidak terikat pada input output protocol
-// Asynchronous melakukan pekerjaannya tanpa harus terikat dengan proses lain atau secara independent
+// Kode asynchronous memungkinkan program untuk dieksekusi segera
+// di mana kode sinkron akan memblokir eksekusi lebih lanjut dari kode yang tersisa sampai menyelesaikan yang sekarang.
