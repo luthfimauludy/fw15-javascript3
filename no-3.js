@@ -23,15 +23,6 @@ const getMonth = (callback) => {
   }, 4000);
 };
 
-const showMonth = (error, month) => {
-  if (error) {
-    console.log(error.message);
-  } else {
-    const months = month.map(function (param) {
-      return param;
-    });
-    console.log(months);
-  }
-};
-
-getMonth(showMonth);
+getMonth((show, month) => {
+  month.map((data) => console.log(data));
+});

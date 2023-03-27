@@ -4,4 +4,4 @@
 
 // Asynchronous
 // Kode asynchronous memungkinkan program untuk dieksekusi segera
-// di mana kode sinkron akan memblokir eksekusi lebih lanjut dari kode yang tersisa sampai menyelesaikan yang sekarang.
+// di mana kode sinkron akan memblokir eksekusi lebih lanjut dari kode yang tersisa sampai menyelesaikan yang sekarang atau sedang dijalankan.
